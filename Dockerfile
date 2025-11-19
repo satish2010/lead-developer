@@ -2,6 +2,12 @@
 FROM eclipse-temurin:21-jdk AS builder
 WORKDIR /app
 
+# Install Maven
+RUN apt-get update && \
+    apt-get install -y maven && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
 # Only copy pom first to leverage Docker layer caching
 COPY pom.xml ./
 RUN --mount=type=cache,target=/root/.m2 mvn -q -e -DskipTests dependency:go-offline || true
