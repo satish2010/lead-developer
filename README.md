@@ -5,7 +5,7 @@ This is a Java Maven project with a standard directory structure.
 
 ## Setup Checklist
 
-- [x] Verify copilot-instructions.md file created
+- [x] Verify project documentation created
 - [x] Project requirements clarified (Java Maven project)
 - [x] Scaffold the project structure
 - [x] Create Hello World application
@@ -15,7 +15,7 @@ This is a Java Maven project with a standard directory structure.
 - [x] Ensure documentation is complete
 
 ## Progress
-- Created copilot-instructions.md file
+- Created project documentation
 - Set up Java Maven project structure
 - Upgraded Java runtime from Java 17 to Java 21 LTS
 - Verified build and tests pass with Java 21
