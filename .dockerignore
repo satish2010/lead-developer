@@ -1,0 +1,21 @@
+# Maven build output
+/target
+
+# Git
+.git
+.gitignore
+
+# GitHub
+.github
+
+# IDEs and editors
+.idea
+.vscode
+*.iml
+.classpath
+.project
+.settings
+
+# OS files
+.DS_Store
+Thumbs.db
